@@ -1,0 +1,55 @@
+*{
+	padding: 10px;
+	margin: 0;
+}
+nav{
+	background-color: lime;
+	padding: 25px;
+	overflow: hidden;
+	position: relative;
+}
+li{
+	float: left;
+	padding: 10px;
+	padding-top: 30px;
+	list-style-type: none;
+	text-transform: uppercase;
+
+}
+ .logo{
+ 	width: 90px;
+ 	height: 100;
+ 	float: right;
+ 	padding-right: 50;
+ }
+  .first-section{
+  	font-size: 35;
+  	padding: 50px;
+  	background-size: cover;
+  	background-image: url(IMAGES/Image.jpg);
+  	height: 400px;
+  	position: relative;
+  	background-position: center center;
+  }
+  first-section p{
+  	padding: 160;
+  }
+  a{
+  	text-decoration: none;
+  	color: red;
+  	
+  }
+  a:hover{
+  	color: skyblue;
+  	background-color: black;
+
+  }
+
+  .footer{
+  	background-color: black;
+  	height: 20px;
+  }
+  .footer a{
+  	padding: 20px;
+  	margin: 15;
+  }
