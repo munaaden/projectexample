@@ -8,7 +8,7 @@ nav{
 	overflow: hidden;
 	position: relative;
 }
-li{
+ul li{
 	float: left;
 	padding: 10px;
 	padding-top: 30px;
@@ -48,8 +48,7 @@ li{
   .footer{
   	background-color: black;
   	height: 20px;
-  }
-  .footer a{
-  	padding: 20px;
-  	margin: 15;
+  	padding-top: 160px;
+  	width: 100%;
+  	
   }
