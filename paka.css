@@ -1,0 +1,144 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: seagreen;
+}
+.container{
+	height: 500px;
+	width: 350px;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.cat{
+	position: relative;
+	top: 150px;
+	left: 50px;
+}
+.face{
+	background-color: darkred;
+	height: 90px;
+	width: 150px;
+	border-radius: 30px;
+}
+.ear-right,.ear-left{
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid #33292b;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position: relative;
+	z-index: -1;
+
+}
+.ear-right{
+	bottom: 85px;
+	left: 110px;
+	transform: rotate(30deg);
+
+}
+.ear-left{
+	bottom: 35px;
+	transform: rotate(-30deg);
+
+}
+.inner1{
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid orangered;
+	right: 25px;
+	position: relative;
+	border-left: 25px solid transparent;
+
+}
+.inner2{
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid orangered;
+	position: relative;
+	border-right: 25px solid transparent;
+
+}
+.eye-left,.eye-right{
+	background-color: #d2873b;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: relative;
+}
+.eye-left{
+	bottom: 75px;
+	left: 30px;
+}
+.eye-right{
+	bottom: 105px;
+	left: 90px;
+}
+.eyeball{
+	background-color: black;
+	height: 24px;
+	width: 24px;
+	position: relative;
+	border-radius: 50%;
+	top: 3px;
+	left: 3px;
+
+}
+.nose{
+	width: 0;
+	height: 0;
+	border-top: 8px solid black;
+	border-left: 7px solid transparent;
+	position: relative;
+	bottom: 110px;
+	left: 70px;
+
+}
+.l1,.l2{
+	background-color: black;
+	height: 8px;
+	width: 1px;
+	position: relative;
+}
+.l1{
+	transform: rotate(45deg);
+	right: 4px;
+	bottom: 1.5px;
+
+}
+.l2{
+	transform: rotate(-45deg);
+	left: 4px;
+	bottom: 10px;
+
+}
+.body{
+	background-color: darkred;
+	height: 120px;
+	width: 130px;
+	position: relative;
+	left: 30px;
+	bottom: 6px;
+	border-radius: 0 65px 0 0;
+
+}
+.paw-l,.paw-r{
+	background-color: darkred;
+	height: 10px;
+	width: 22px;
+	position: relative;
+	border-radius: 0 0px 10px 10px;
+}
+.paw-l{
+	top: 120px;
+
+}
+.paw-r{
+	top: 110px;
+	left: 50px;
+
+}
